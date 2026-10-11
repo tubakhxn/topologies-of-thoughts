@@ -1,0 +1,31 @@
+{
+  "name": "gesture-thought-topology",
+  "version": "2.0.0",
+  "description": "Topologies of Thoughts - a hand-gesture controlled 3D graph of connected notes (Three.js + MediaPipe Hand Landmarker)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "prepare-assets": "node scripts/prepare.mjs",
+    "postinstall": "node scripts/prepare.mjs",
+    "dev": "node scripts/prepare.mjs && vite --host",
+    "build": "node scripts/prepare.mjs && vite build",
+    "preview": "vite preview --host",
+    "test": "node test/logic.test.mjs"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.1.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "author": "tubakhxn",
+  "keywords": [
+    "hand-tracking",
+    "mediapipe",
+    "threejs",
+    "webcam",
+    "gesture-control",
+    "graph-visualization"
+  ]
+}

@@ -1,0 +1,5 @@
+#dev/creator:tubakhxn
+node_modules
+dist
+public/wasm
+public/models/*.task
