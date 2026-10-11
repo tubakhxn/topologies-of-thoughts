@@ -1,6 +1,6 @@
 <!-- #dev/creator:tubakhxn -->
 # Gesture Thought Topology
-
+## Dev/Creator: tubakhxn
 Control a 3D map of connected ideas with your bare hand. No mouse, no controller, just your webcam.
 
 The scene is a graph of about 190 small text notes grouped into 8 topic clusters. Mint headings name each cluster, white notes sit next to glowing dots, and thin lines with travelling signal dots connect them. You zoom, rotate and scroll through the graph with finger gestures, and a pinch rewires the whole graph into a different network shape.
